@@ -141,6 +141,12 @@ html{
     height: 240px;
     margin: 10px;
 }
+iframe {
+    
+    width: 200%;
+    height: 500px;  
+}
+
 /* Services */
 #services{
     display: flex;
