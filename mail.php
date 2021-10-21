@@ -13,3 +13,4 @@ if($email != null){
     mail($to,$subject,$txt,$headers)
 }
 header("Location: thankyou.html");
+?>
