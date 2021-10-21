@@ -9,7 +9,7 @@ $subject = "Mail From website";
 $txt = "Name = ". $name . "\r\n Email = " . $email . "\r\n Message = " . $message ;
 
 $headers = "From: Nikko@personal.com" . "\r\n " . "CC: Sombody@example.com";
-if($email != null){
+if($email != NULL){
     mail($to,$subject,$txt,$headers)
 }
 header("Location: thankyou.html");
