@@ -25,7 +25,8 @@ html{
 
 .navbar ul li{
     font-family: century;
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
+    font-size: 25px;
     font-weight: bold;
 }
 .navbar ul li a{
@@ -146,6 +147,21 @@ iframe {
     width: 200%;
     height: 500px;  
 }
+.boxPortfilio{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding-inline-end: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(255,45,45) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
 
 /* Services */
 #services{
@@ -174,6 +190,7 @@ iframe {
     background-size: 100% 200%;
     transition: all .8s;
 }
+
 .box:hover{
     background-position: left bottom;
     color: white;
@@ -223,6 +240,14 @@ iframe {
     cursor: pointer;
     box-shadow: 0 0 10px white;
 } */
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black; 
+    padding: 20px;
+}
 
 *{
     padding: 0;
@@ -254,13 +279,13 @@ section{
 .form-group{
     width: 100%;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 15px;
 }
 .form-group input,
 .form-group textarea{
     width: 100%;
     padding: 5px;
-    font-size: 18px;
+    font-size: 12px;
     border: 1px solid rgba(128, 128, 128, 0.199);
     margin-top: 5px;
 }
@@ -272,7 +297,7 @@ button[type = "submit"]{
     border: none;
     outline: none;
     padding: 20px;
-    font-size: 24px;
+    font-size: 19px;
     border-radius: 8px;
     font-family: 'Montserrat';
     color: rgb(27, 166, 247);
