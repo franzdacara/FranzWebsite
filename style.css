@@ -112,7 +112,8 @@ html{
 #intro{
     display: flex;
     flex-direction: column;
-    text-align: justify;
+    text-align: center;
+    font-size: 25px;
     padding: 10px;
 }
 .intro h2{
@@ -155,6 +156,19 @@ iframe {
     align-items: center;
 }
 
+/* Sub Portfolio */
+
+/* .sub-portfoli-1{
+    display: none;
+}
+.navbar ul li a:hover .sub-portfoli-1{
+    display: block;
+    position: absolute;
+    background: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: 15px;
+
+} */
 /* Services */
 #services{
     display: flex;
